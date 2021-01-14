@@ -1,4 +1,4 @@
-<div align = center><h1>Updates</h1></div>
+<div align = center><h1>📡 Updates</h1></div>
 <div align = center><p>A feed where updates for my programs are linked.<br>Please note that Gists updates are not uploaded here.</p></div>
 <br/>
 <br/>
