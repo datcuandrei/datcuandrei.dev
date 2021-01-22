@@ -3,6 +3,15 @@
 <br/>
 <br/>
 
+## [i3wm-xfkeys v1.0](https://github.com/datcuandrei/i3wm-xfkeys/releases/tag/v1.0)
+### Jan 22, 2021
+- Changed name from `i3wm-mac-syskeys` to `i3wm-xfkeys`.
+- Works with any machine(hence the name change).
+- Brightness will now work with all machines (reference to issue #1 ).
+- Same goes with keyboard backlights.
+- Added support for media controls (requires `playerctl`).
+- Improved code.
+
 ## [dafetch v1.0](https://github.com/datcuandrei/dafetch/releases/tag/v1.0)
 ### Jan 6, 2021
 - Changed name from yfetch to dafetch.
