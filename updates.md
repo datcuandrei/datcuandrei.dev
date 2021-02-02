@@ -3,6 +3,13 @@
 <br/>
 <br/>
 
+## [BackToMac v1.2.0](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.0)
+### Feb 02, 2021
+- Added the ability to choose custom OS images : Users can now create USB sticks with their own image files.Currently,BackToMac supports only `.iso` and `.cdr` image files.(thanks to @Minh-Ton for the idea.)
+- Added in-app aspect switcher : Users can now switch between light mode and dark mode from within the app,without the need to relaunch the app with different executable.
+- Added a setup : BackToMac will now come with an installer and uninstaller.See *README.md* to find out how to install and use BackToMac.
+- Switched to `pkexec` : BackToMac used to launch with root privileges with the help of `sudo su` in the launch script.In order to make BackToMac a fully GUI-based tool,it now uses `pkexec`,which is the graphical way to gain root privileges.
+
 ## [i3wm-xfkeys v1.0](https://github.com/datcuandrei/i3wm-xfkeys/releases/tag/v1.0)
 ### Jan 22, 2021
 - Changed name from `i3wm-mac-syskeys` to `i3wm-xfkeys`.
