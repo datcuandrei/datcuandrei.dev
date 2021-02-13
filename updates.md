@@ -3,6 +3,12 @@
 <br/>
 <br/>
 
+## [MacLinuxUtils v2.3.2](https://github.com/datcuandrei/MacLinuxUtils/releases/tag/v2.3.2)
+### Feb 13, 2021
+- Added in-app aspect switcher : Users can now switch between light mode and dark mode from within the app,without the need to relaunch the app with different executable.
+- Added a setup : MacLinuxUtils will now come with an installer and uninstaller.See *README.md* to find out how to install and use MacLinuxUtils.
+- Switched to `pkexec` : MacLinuxUtils used to launch with root privileges with the help of `sudo su` in the launch script.In order to make MacLinuxUtils a fully GUI-based tool,it now uses `pkexec`,which is the graphical way to gain root privileges.
+
 ## [BackToMac v1.2.0](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.0)
 ### Feb 02, 2021
 - Added the ability to choose custom OS images : Users can now create USB sticks with their own image files.Currently,BackToMac supports only `.iso` and `.cdr` image files.(thanks to @Minh-Ton for the idea.)
