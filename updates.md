@@ -3,6 +3,11 @@
 <br/>
 <br/>
 
+## [BackToMac v1.0](https://github.com/datcuandrei/bmrec/releases/tag/v1.0)
+### Oct 4, 2020
+Preview:"A fast and easy to use screen recording software,based on FFmpeg.    For more information on how to get started and..."
+
+
 ## [MacLinuxUtils v2.3.2](https://github.com/datcuandrei/MacLinuxUtils/releases/tag/v2.3.2)
 ### Feb 13, 2021
 - Added in-app aspect switcher : Users can now switch between light mode and dark mode from within the app,without the need to relaunch the app with different executable.
