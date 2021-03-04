@@ -4,7 +4,7 @@
 <br/>
 
 ## [bmrec v1.0](https://github.com/datcuandrei/bmrec/releases/tag/v1.0)
-### Oct 4, 2020
+### Mar 4, 2021
 Preview:"A fast and easy to use screen recording software,based on FFmpeg.    For more information on how to get started and..."
 
 
