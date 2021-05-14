@@ -3,6 +3,19 @@
 <br/>
 <br/>
 
+## [BackToMac v1.2.1](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.1)
+### May 14, 2021
+
+- Improved writing speed: BackToMac is using `dd` for writing the images and by default, the block size that `dd` is using is 512. By increasing the block size to 4M, the difference is very noticeable.
+Here is a difference between the two block sizes :
+```
+# With the default block size (512)
+2002526720 bytes (2.0 GB, 1.9 GiB) copied, 763 s, 2.6 MB/s 
+
+# With the increased block size (4M)
+2004877312 bytes (2.0 GB, 1.9 GiB) copied, 237 s, 8.4 MB/s 
+```
+
 ## [bmrec v1.0](https://github.com/datcuandrei/bmrec/releases/tag/v1.0)
 ### Mar 4, 2021
 Preview:"A fast and easy to use screen recording software,based on FFmpeg.    For more information on how to get started and..."
