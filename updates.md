@@ -4,6 +4,19 @@
 <br/>
 
 ## [BackToMac v1.2.1](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.1)
+### June 3, 2021
+As of June 2021, with the 2.3.5 release, development for MacLinuxUtils has ended. This means that MacLinuxUtils will not receive feature updates anymore. It might only receive bug fixes.
+
+## Changelog 2.3.5 : 
+- Added check for root privileges : MacLinuxUtils will not start without root privileges, as they are required in order to function properly.
+- Fixed a pesky bug with presets not loading on startup on some desktop environments.
+- Added a check for system tray support : if you desktop environment does not support system trays, MacLinuxUtils will let you know that it has disabled the system tray. If support for system trays will be added, then MacLinuxUtils will enable it automatically.
+- New main menu layout : `About`, `Check for Updates` , `Report issues` and the aspect switcher have been moved to a detachable top bar, to make things more simple. You can see more about in the `README.md` or in `captures`.
+- Added a new `About` button : This new button will display information regarding MacLinuxUtils, as well as credits and a button that sends the user to the author's page.
+- Improved design responsiveness.
+- Basic code maintenance.
+
+## [BackToMac v1.2.1](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.1)
 ### May 14, 2021
 
 - Improved writing speed: BackToMac is using `dd` for writing the images and by default, the block size that `dd` is using is 512. By increasing the block size to 4M, the difference is very noticeable.
