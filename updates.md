@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-## [BackToMac v1.2.1](https://github.com/datcuandrei/BackToMac/releases/tag/v1.2.1)
+## [MacLinuxUtils 2.3.5](https://github.com/datcuandrei/MacLinuxUtils/releases/tag/2.3.5)
 ### June 3, 2021
 As of June 2021, with the 2.3.5 release, development for MacLinuxUtils has ended. This means that MacLinuxUtils will not receive feature updates anymore. It might only receive bug fixes.
 
