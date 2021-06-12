@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-## [M-JIPS 3.2](https://github.com/datcuandrei/M-JIPS/releases/tag/3.2)
+<!--## [M-JIPS 3.2](https://github.com/datcuandrei/M-JIPS/releases/tag/3.2)
 ### June 12, 2021
 - Fixed an issue where it would search for `/tmp/` on all OS'. Added a function that actually uses the `temp` folder for the respective OS.
 - Fixed updates, now they should work with no issues.
@@ -13,6 +13,7 @@
 - Rewored GUI
 - A new CLI mode
 - Updater
+-->
 
 
 ## [MacLinuxUtils 2.3.5](https://github.com/datcuandrei/MacLinuxUtils/releases/tag/2.3.5)
