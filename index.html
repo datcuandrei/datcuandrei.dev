@@ -37,10 +37,32 @@ div {
 }
 h1 {
 	font-size: 60px;
+	padding-right: 20px;
+  	display: inline-block;
 	font-weight: bold;
 	font-family: Roboto;
 	color : #9580ff;
 }
+
+h1:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background:  #9580ff;
+  opacity: 0;
+  display: inline-block;
+  animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+			
 h2 {
 	font-size: 20px;
 	font-weight: normal;
@@ -119,24 +141,6 @@ footer {
 	font-family: Roboto;
 	opacity: 0.5;
 }
-			
-#cursor {
-  background: #9580ff;
-  line-height: 17px;
-  -webkit-animation: blink 0.8s infinite;
-  position: absolute;
-  top: 60%;
-  margin: -250px 0 0 -320px;
-  width: 7px;
-  height: 20px;
-}
-			
-@-webkit-keyframes blink {
-  0% {background: #282a36}
-  50% {background: #9580ff}
-  100% {background: #282a36}
-}
-
 
 </style>
 	</head>
@@ -147,7 +151,7 @@ footer {
 			<li><a href="setup.html">Setup</a></li>
 		</ul>
 		<div align="center">
-			<h1>$> /home/datcuandrei<div id="cursor"></div></h1>
+			<h1>$> /home/datcuandrei</div></h1>
 			<h2>Software developer.</h2>
 			<a href="seemore.html" class="myButton">About me</a>
 		</div>
