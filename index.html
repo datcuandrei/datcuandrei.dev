@@ -23,9 +23,11 @@ div {
 	margin: -250px 0 0 -300px;
 	animation: fadein 2s;
 }
+<!--
 .center{
 	text-align: center;
 }
+-->
 @keyframes fadein {
 	from {
 		opacity: 0;
@@ -119,6 +121,15 @@ footer {
 	font-family: Roboto;
 	opacity: 0.5;
 }
+			
+#cursor {
+  background: #9580ff;
+  line-height: 17px;
+  margin-left: 3px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 7px;
+  height: 15px;
+}
 
 </style>
 	</head>
@@ -129,7 +140,7 @@ footer {
 			<li><a href="setup.html">Setup</a></li>
 		</ul>
 		<div align="center">
-			<h1>👋Hi there!I am Andrei.</h1>
+			<h1>$> /home/datcuandrei</h1><div id="cursor"></div>
 			<h2>Software developer.</h2>
 			<a href="seemore.html" class="myButton">About me</a>
 		</div>
