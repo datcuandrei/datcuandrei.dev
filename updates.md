@@ -3,6 +3,10 @@
 <br/>
 <br/>
 
+## [MTIDE 1.0](https://github.com/datcuandrei/MTIDE/releases/tag/1.0)
+### July 19, 2021
+First release of MTIDE
+
 <!--## [M-JIPS 3.2](https://github.com/datcuandrei/M-JIPS/releases/tag/3.2)
 ### June 12, 2021
 - Fixed an issue where it would search for `/tmp/` on all OS'. Added a function that actually uses the `temp` folder for the respective OS.
